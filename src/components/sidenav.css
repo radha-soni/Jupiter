@@ -1,0 +1,61 @@
+.sidebar {
+  text-align: center;
+  padding: 0;
+  width: 250px;
+  position: fixed;
+  height: 88%;
+  overflow: auto;
+  margin: 78px 0px 0px 0px;
+  background-color: #f3eded;
+}
+.profile {
+  width: 180px;
+  background-color: #4f5d75;
+  color: white;
+  margin: 10px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.profile:focus {
+  color: #333;
+  background: white;
+  border: 1px solid #4f5d75;
+  outline: #4f5d75;
+}
+.profile:hover {
+  color: #fff;
+  background: grey;
+  border: 1px solid #4f5d75;
+  outline: #4f5d75;
+  transition: background-color 0.5s ease-in;
+}
+.profile:active {
+  color: #333;
+  background: white;
+  border: 1px solid #4f5d75;
+  outline: #4f5d75;
+}
+.profile-options {
+  list-style-type: none;
+}
+.profile-li {
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  border: 1.5px solid #4f5d75;
+  padding-left: 15px;
+  line-height: 40px;
+  margin: 12px 20px;
+  color: #a79a9a;
+  text-align: left;
+}
+.profile-li:hover {
+  color: #fff;
+  background: #4f5d75;
+  transition: background-color 0.5s ease-in;
+}

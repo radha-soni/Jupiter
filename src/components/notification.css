@@ -1,0 +1,86 @@
+.notification-container {
+  width: 100%;
+  margin: 82px 0px 0px 254px;
+  text-align: center;
+}
+.notification-form {
+  width: 500px;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 400px;
+  line-height: 400px;
+  margin: 70px auto;
+  position: relative;
+}
+.alert-label {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 15px 0px 0px 25px;
+  text-transform: uppercase;
+}
+.alert-label label {
+  height: 48px;
+  line-height: 48px;
+  width: 100%;
+  margin: 15px 0px;
+  border: 1px solid #4f5d75;
+}
+
+.btn-design {
+  outline: none;
+  background-color: white;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  height: 100%;
+  line-height: 48px;
+}
+.fa {
+  padding-top: 2px;
+}
+
+.toggle {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.switch-label {
+  height: 48px;
+  line-height: 48px;
+  margin: 20px 15px;
+  height: 44px;
+  cursor: pointer;
+}
+.submit-alert {
+  position: absolute;
+  top: 160px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  height: 0px;
+}
+.submit-alert button {
+  width: 130px;
+  height: 40px;
+  border: 1px solid #4f5d75;
+  outline: none;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #373c41;
+  color: white;
+  cursor: pointer;
+}
+.submit-alert button:hover {
+  transform: scale(1.02);
+  background: white;
+  color: #333;
+}

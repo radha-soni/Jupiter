@@ -1,0 +1,79 @@
+.profile-container {
+  width: 100%;
+  margin: 82px 0px 0px 254px;
+  text-align: center;
+}
+.profile-form {
+  width: 500px;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 400px;
+  line-height: 400px;
+  margin: 70px auto;
+  position: relative;
+}
+.labels {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+}
+.labels label {
+  height: 44px;
+  line-height: 40px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 16px 0px;
+  background-color: #f3eded;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: flex-end;
+}
+.inputs input {
+  height: 40px;
+  border-radius: 6px;
+  width: 225px;
+  margin: 16px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none;
+  padding: 0px;
+}
+.inputs input:hover {
+  background: #f7f0f0;
+  color: #334;
+
+  border: 2px solid #334;
+}
+.submit {
+  position: absolute;
+  top: 514px;
+  bottom: 0px;
+  left: 250px;
+  right: 0px;
+  text-align: center;
+}
+.submit button {
+  width: 160px;
+  height: 50px;
+  border: 2px solid #4f5d75;
+  outline: none;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #2d3142;
+  color: white;
+}
+.submit button:hover {
+  transform: scale(1.02);
+  background: white;
+  color: #333;
+}
+.datepicker {
+  width: 200px;
+}
